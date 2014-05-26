@@ -33,10 +33,8 @@
                 <td class="auto-style2">
                     <asp:Label ID="Label2" runat="server" Text="Курс к рублю" Width="50"></asp:Label>
                 </td>
-                <td class="auto-style1">
-                    
-                    <asp:TextBox ID="SourceCourse" runat="server"></asp:TextBox>
-                    
+                <td class="auto-style1">                 
+                    <asp:TextBox ID="SourceCourse" runat="server"></asp:TextBox>                
                 </td>
             </tr>
             <tr>
@@ -59,29 +57,20 @@
                     <asp:Label ID="Label5" runat="server" Text="Курс к рублю"></asp:Label>
                 </td>
                 <td>
-                    
-                    <asp:TextBox ID="DestinationCourse" runat="server"></asp:TextBox>
-                    
+                    <asp:TextBox ID="DestinationCourse" runat="server"></asp:TextBox>                 
                 </td>
             </tr>
             <tr>
                 <td colspan="4">
-                   
                     <asp:Button ID="Button1" runat="server" Text="Рассчитать" OnClick="Button1_Click" />
-                   
                 </td>
             </tr>
             <tr>
                 <td colspan="4">
-                 
-                   
                     <asp:Label ID="ResultLabel" runat="server"></asp:Label>
-                 
-                   
                 </td>
             </tr>
         </table>
-    
     </div>
     </form>
 </body>
